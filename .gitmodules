@@ -1,0 +1,9 @@
+[submodule "hikers-pack-api"]
+	path = hikers-pack-api
+	url = https://github.com/gaku913/hikers-pack-api
+[submodule "front"]
+	path = front
+	url = ./front
+[submodule "api"]
+	path = api
+	url = ./api
