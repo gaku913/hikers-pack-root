@@ -1,0 +1,8 @@
+{
+	"name": "api container",
+	"dockerComposeFile": "../../docker-compose.yml",
+	"service": "api",
+	"workspaceFolder": "/rails",
+	"overrideCommand": true,
+	"postAttachCommand": "/bin/sh .devcontainer/postAttachCommand.sh"
+}

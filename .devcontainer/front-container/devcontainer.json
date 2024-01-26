@@ -1,0 +1,8 @@
+{
+	"name": "front container",
+	"dockerComposeFile": "../../docker-compose.yml",
+	"service": "front",
+	"workspaceFolder": "/app",
+	"overrideCommand": true,
+	"postAttachCommand": "npm run dev"
+}
