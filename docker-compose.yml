@@ -12,7 +12,7 @@ services:
     build: ./api
     environment:
       POSTGRES_PASSWORD: $POSTGRES_PASSWORD
-      API_DOMAIN: "http://localhost:4000"
+      API_DOMAIN: "http://localhost:5173"
     command: /bin/bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
     volumes:
       - ./api:/rails
@@ -25,12 +25,11 @@ services:
     build: ./front
     environment:
       API_ORIGIN: "http://localhost:3000"
-      PORT: 4000
     command: npm run dev
     volumes:
       - ./front:/app
     ports:
-      - 4000:4000
+      - 5173:5173
     depends_on:
       - api
 

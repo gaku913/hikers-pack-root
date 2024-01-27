@@ -1,6 +1,6 @@
 [submodule "front"]
 	path = front
-	url = https://github.com/gaku913/hikers-pack-front
+	url = https://github.com/gaku913/hikers-pack-front-react
 [submodule "api"]
 	path = api
 	url = https://github.com/gaku913/hikers-pack-api
