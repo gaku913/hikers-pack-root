@@ -4,5 +4,13 @@
 	"service": "front",
 	"workspaceFolder": "/app",
 	"overrideCommand": true,
-	"postAttachCommand": "npm run dev"
+	"postAttachCommand": "npm run dev",
+	"customizations": {
+    "vscode": {
+      "extensions": [
+				"shardulm94.trailing-spaces",
+				"dbaeumer.vscode-eslint"
+      ]
+    }
+  }
 }
