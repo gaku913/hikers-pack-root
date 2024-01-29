@@ -23,8 +23,6 @@ services:
 
   front:
     build: ./front
-    environment:
-      API_ORIGIN: "http://localhost:3000"
     command: npm run dev
     volumes:
       - ./front:/app
