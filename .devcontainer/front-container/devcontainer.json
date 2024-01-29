@@ -9,7 +9,9 @@
     "vscode": {
       "extensions": [
 				"shardulm94.trailing-spaces",
-				"dbaeumer.vscode-eslint"
+				"dbaeumer.vscode-eslint",
+				"orta.vscode-jest",
+				"firsttris.vscode-jest-runner"
       ]
     }
   }
