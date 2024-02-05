@@ -4,5 +4,14 @@
 	"service": "api",
 	"workspaceFolder": "/rails",
 	"overrideCommand": true,
-	"postAttachCommand": "/bin/sh .devcontainer/postAttachCommand.sh"
+	"postAttachCommand": "/bin/sh .devcontainer/postAttachCommand.sh",
+	"customizations": {
+    "vscode": {
+      "extensions": [
+				"shardulm94.trailing-spaces",
+				"noku.rails-run-spec-vscode",
+				"shopify.ruby-extensions-pack"
+      ]
+    }
+  }
 }
