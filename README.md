@@ -20,3 +20,9 @@
 * フレームワーク : Ruby on Rails API
 * DB : PostgreSQL 16.1
 * ホスティングサービス : Heroku
+
+## 開発環境
+
+* Windows10
+* Docker 24.0.6
+* Visual Studio Code
